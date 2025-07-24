@@ -1,0 +1,45 @@
+.swiper {
+    position: relative;
+}
+
+.swiper-pagination {
+    position: absolute !important;
+    top: 50% !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: 10px !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column;
+    /* Default: row for tablet & desktop */
+    gap: 10px;
+    z-index: 50;
+    width: auto !important;
+    height: auto !important;
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+        top: auto !important;
+        bottom: 20px !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+    }
+}
+
+
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    opacity: 0.4;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: orange;
+    opacity: 1;
+    transform: scale(1.2);
+}
