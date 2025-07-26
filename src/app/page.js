@@ -2,6 +2,8 @@
 
 import AboutUs from "./components/HomePage/AboutUs";
 import HeroSection from "./components/HomePage/HeroSection";
+import OutClinet from "./components/HomePage/OutClinet";
+import Service from "./components/HomePage/Service";
 import WhoWeAre from "./components/HomePage/WhoWeAre";
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <HeroSection />
       <WhoWeAre />
       <AboutUs />
+      <Service />
+      <OutClinet />
     </div>
   );
 }

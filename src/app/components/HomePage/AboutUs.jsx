@@ -14,7 +14,7 @@ const AboutUs = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="max-w-7xl px-4 md:px-6 lg:px-12 mx-auto overflow-x-hidden py-20">
+      <div className="max-w-7xl px-4 md:px-6 lg:px-12 mx-auto overflow-x-hidden py-20 lg:py-16">
         <div className="flex flex-col gap-16 lg:flex-row lg:items-center lg:justify-between">
           {/* left */}
           <div className="flex flex-col gap-4 items-center justify-center text-center lg:items-start lg:text-start lg:w-1/2">
