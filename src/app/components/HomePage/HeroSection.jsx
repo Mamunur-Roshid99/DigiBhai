@@ -32,7 +32,7 @@ const HeroSection = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="flex items-center py-20 lg:py-8"
+      className="flex items-center py-48 lg:py-8"
     >
       <div className="w-full lg:max-w-7xl px-4 md:px-6 lg:px-12 mx-auto overflow-x-hidden">
         <SwiperSlider slides={slides} />

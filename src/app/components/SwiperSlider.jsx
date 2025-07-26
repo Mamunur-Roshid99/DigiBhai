@@ -14,15 +14,15 @@ const SwiperSlider = ({ slides }) => {
       modules={[Pagination, Autoplay]}
       pagination={{ clickable: true }}
       autoplay={{
-        delay: 3000, // 3 seconds
-        disableOnInteraction: false, // manual interaction dileo abar auto chalu thakbe
+        delay: 3000,
+        disableOnInteraction: false,
       }}
       loop={true}
       className="relative"
     >
       {slides.map((slide) => (
         <SwiperSlide key={slide.id}>
-          <div className="text-white pb-20 lg:pt-20 flex flex-col gap-2 lg:w-1/2">
+          <div className="text-white pb-20 md:pt-20 flex flex-col gap-2 md:w-1/2">
             <h2 className="text-xs text-[#FF9800] tracking-widest font-medium lg:text-base">
               {slide.title}
             </h2>
