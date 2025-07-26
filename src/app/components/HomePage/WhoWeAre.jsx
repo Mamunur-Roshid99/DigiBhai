@@ -6,7 +6,7 @@ export default function WhoWeAre() {
   return (
     <section className="bg-[#12141d] py-24 lg:py-36">
       <div className="relative max-w-7xl px-4 md:px-6 lg:px-12 mx-auto">
-        <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] lg:w-[80%] min-h-[90vh] lg:min-h-[80vh] bg-[#FF9800] blur-3xl opacity-10 rounded-full z-0"></div>
+        <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] lg:w-[80%] min-h-[90vh] lg:min-h-[80vh] bg-[#FF9800] blur-3xl opacity-10 lg:opacity-5 rounded-full z-0"></div>
         <div className="relative z-10">
           <div className="flex items-center justify-center flex-col">
             <p className="text-[#FF9800] text-sm mb-2 dm_sans lg:text-base">
