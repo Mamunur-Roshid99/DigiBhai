@@ -35,7 +35,7 @@ const AboutUs = () => {
           </div>
           {/* right */}
           <div className="flex items-center justify-center lg:w-1/2">
-            <Image src={about} className="w-[70%] md:w-[50%] lg:w-[60%]" />
+            <Image src={about} className="w-[70%] md:w-[50%] lg:w-[60%]" alt="about" />
           </div>
         </div>
       </div>
