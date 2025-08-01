@@ -38,7 +38,7 @@ const Review = () => {
   };
 
   return (
-    <section className="relative py-16 lg:py-28">
+    <section className="relative py-16 lg:py-28 bg-[#0c1c2f]">
       {/* Background blur */}
       <div className="hidden lg:block absolute lg:top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] lg:w-[85%] lg:min-h-[70vh] bg-[#FF9800] blur-3xl opacity-10 rounded-full z-0"></div>
 
