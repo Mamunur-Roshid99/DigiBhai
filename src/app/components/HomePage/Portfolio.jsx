@@ -35,7 +35,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section className="bg-[#0c1c2f] py-16 text-white">
+    <section className="bg-[#0c1c2f] py-16 text-white lg:py-28">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-12">
         <div className="space-y-8">
           {/* top */}
